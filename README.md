@@ -1,1 +1,1 @@
-# DatabaseManager
+基于FMDB封装的数据库表字段升级工具。
