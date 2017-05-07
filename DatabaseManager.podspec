@@ -6,14 +6,14 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/yangyongzheng/DatabaseManager"
   s.social_media_url   = "http://twitter.com/yangyongzheng"
   s.author             = { "yangyongzheng" => "youngyongzheng@qq.com" }
-  s.source       = { :git => "https://github.com/yangyongzheng/DatabaseManager.git", :tag => s.version, :submodules => true }
+  s.source       = { :git => "https://github.com/yangyongzheng/DatabaseManager.git", :tag => s.version }
   s.platform     = :ios, "7.0"
   s.requires_arc = true
 
   s.public_header_files = "DatabaseManager/**/DatabaseHeader.h"
-  s.source_files  = "DatabaseManager/**/DatabaseHeader.h"
+  s.source_files  = "DatabaseManager/DatabaseManager/Database*.{h,m}"
 
-  s.dependency "FMDB", "~> 2.6.2"
+  s.dependency 'FMDB'
   s.default_subspec = "Standard"
 
   s.subspec "Standard" do |ss|
