@@ -10,9 +10,9 @@
 		CADB0BC521EBDB9394DD388F /* libPods-DatabaseManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7661BA93ED75CC8385024684 /* libPods-DatabaseManagerTests.a */; };
 		CE6602441EBF1A8D000DFFA0 /* BrowseRecords.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6602411EBF1A8D000DFFA0 /* BrowseRecords.plist */; };
 		CE6602451EBF1A8D000DFFA0 /* DatabaseConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6602431EBF1A8D000DFFA0 /* DatabaseConstant.m */; };
-		CE66027F1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66027B1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.m */; };
-		CE6602801EBF3FB7000DFFA0 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66027C1EBF3FB7000DFFA0 /* DatabaseManager.m */; };
-		CE6602811EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66027E1EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.m */; };
+		CE6602871EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6602831EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.m */; };
+		CE6602881EBF51F8000DFFA0 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6602841EBF51F8000DFFA0 /* DatabaseManager.m */; };
+		CE6602891EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6602861EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.m */; };
 		CE8705831EAB57920021764F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8705821EAB57920021764F /* main.m */; };
 		CE8705861EAB57930021764F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8705851EAB57930021764F /* AppDelegate.m */; };
 		CE8705891EAB57930021764F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8705881EAB57930021764F /* ViewController.m */; };
@@ -46,11 +46,11 @@
 		CE6602761EBF3FB7000DFFA0 /* DatabaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseMacro.h; sourceTree = "<group>"; };
 		CE6602771EBF3FB7000DFFA0 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
 		CE6602781EBF3FB7000DFFA0 /* DatabaseManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManagerProtocol.h; sourceTree = "<group>"; };
-		CE66027A1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseDbManagerWrapper.h; sourceTree = "<group>"; };
-		CE66027B1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseDbManagerWrapper.m; sourceTree = "<group>"; };
-		CE66027C1EBF3FB7000DFFA0 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
-		CE66027D1EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseQueueManagerWrapper.h; sourceTree = "<group>"; };
-		CE66027E1EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseQueueManagerWrapper.m; sourceTree = "<group>"; };
+		CE6602821EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseDbManagerWrapper.h; sourceTree = "<group>"; };
+		CE6602831EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseDbManagerWrapper.m; sourceTree = "<group>"; };
+		CE6602841EBF51F8000DFFA0 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		CE6602851EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseQueueManagerWrapper.h; sourceTree = "<group>"; };
+		CE6602861EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseQueueManagerWrapper.m; sourceTree = "<group>"; };
 		CE87057E1EAB57920021764F /* DatabaseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8705821EAB57920021764F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE8705841EAB57920021764F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,21 +104,21 @@
 				CE6602761EBF3FB7000DFFA0 /* DatabaseMacro.h */,
 				CE6602771EBF3FB7000DFFA0 /* DatabaseManager.h */,
 				CE6602781EBF3FB7000DFFA0 /* DatabaseManagerProtocol.h */,
-				CE6602791EBF3FB7000DFFA0 /* DatabaseManagerSource */,
+				CE66028A1EBF5208000DFFA0 /* DatabaseManagerSource */,
 			);
 			path = DatabaseManager;
 			sourceTree = "<group>";
 		};
-		CE6602791EBF3FB7000DFFA0 /* DatabaseManagerSource */ = {
+		CE66028A1EBF5208000DFFA0 /* DatabaseManagerSource */ = {
 			isa = PBXGroup;
 			children = (
-				CE66027A1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.h */,
-				CE66027B1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.m */,
-				CE66027C1EBF3FB7000DFFA0 /* DatabaseManager.m */,
-				CE66027D1EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.h */,
-				CE66027E1EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.m */,
+				CE6602821EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.h */,
+				CE6602831EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.m */,
+				CE6602841EBF51F8000DFFA0 /* DatabaseManager.m */,
+				CE6602851EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.h */,
+				CE6602861EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.m */,
 			);
-			path = DatabaseManagerSource;
+			name = DatabaseManagerSource;
 			sourceTree = "<group>";
 		};
 		CE8705751EAB57920021764F = {
@@ -401,12 +401,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6602451EBF1A8D000DFFA0 /* DatabaseConstant.m in Sources */,
-				CE66027F1EBF3FB7000DFFA0 /* DatabaseDbManagerWrapper.m in Sources */,
+				CE6602871EBF51F8000DFFA0 /* DatabaseDbManagerWrapper.m in Sources */,
 				CE8705891EAB57930021764F /* ViewController.m in Sources */,
 				CE8705861EAB57930021764F /* AppDelegate.m in Sources */,
-				CE6602801EBF3FB7000DFFA0 /* DatabaseManager.m in Sources */,
+				CE6602881EBF51F8000DFFA0 /* DatabaseManager.m in Sources */,
 				CE8705831EAB57920021764F /* main.m in Sources */,
-				CE6602811EBF3FB7000DFFA0 /* DatabaseQueueManagerWrapper.m in Sources */,
+				CE6602891EBF51F8000DFFA0 /* DatabaseQueueManagerWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
