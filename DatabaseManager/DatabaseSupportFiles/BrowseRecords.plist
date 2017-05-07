@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PurchaseList</key>
+	<dict>
+		<key>id</key>
+		<string>integer primary key autoincrement</string>
+		<key>userId</key>
+		<string>integer not null</string>
+		<key>uniqueId</key>
+		<string>integer not null</string>
+		<key>updateTime</key>
+		<string>datetime default (datetime(&apos;now&apos;, &apos;localtime&apos;))</string>
+		<key>createTime</key>
+		<string>text</string>
+		<key>cateName</key>
+		<string>text</string>
+		<key>buyTitle</key>
+		<string>text</string>
+		<key>qty</key>
+		<string>real</string>
+		<key>unit</key>
+		<string>text</string>
+		<key>breedName</key>
+		<string>text</string>
+		<key>provinceName</key>
+		<string>text</string>
+		<key>cityName</key>
+		<string>text</string>
+		<key>endTime</key>
+		<string>text</string>
+		<key>tradeTypeStr</key>
+		<string>text</string>
+		<key>offerCount</key>
+		<string>integer</string>
+		<key>ifForever</key>
+		<string>integer</string>
+		<key>placeFullName</key>
+		<string>text</string>
+		<key>createUserId</key>
+		<string>integer default 0</string>
+	</dict>
+	<key>SupplyList</key>
+	<dict>
+		<key>id</key>
+		<string>integer primary key autoincrement</string>
+		<key>userId</key>
+		<string>integer not null</string>
+		<key>uniqueId</key>
+		<string>integer not null</string>
+		<key>updateTime</key>
+		<string>datetime default (datetime(&apos;now&apos;, &apos;localtime&apos;))</string>
+		<key>createTime</key>
+		<string>datetime default (datetime(&apos;now&apos;, &apos;localtime&apos;))</string>
+		<key>url170</key>
+		<string>text</string>
+		<key>title</key>
+		<string>text</string>
+		<key>price</key>
+		<string>real</string>
+		<key>unit</key>
+		<string>text</string>
+		<key>specificationName</key>
+		<string>text</string>
+		<key>timeStr</key>
+		<string>text</string>
+		<key>isCarrier</key>
+		<string>integer</string>
+		<key>vipLevel</key>
+		<string>integer</string>
+		<key>address</key>
+		<string>text</string>
+		<key>shopName</key>
+		<string>text</string>
+		<key>companyCertifition</key>
+		<string>integer default 0</string>
+		<key>personCertifition</key>
+		<string>integer default 0</string>
+		<key>serviceMode</key>
+		<string>text</string>
+		<key>autoTitle</key>
+		<string>text</string>
+		<key>customTitle</key>
+		<string>text</string>
+		<key>sellType</key>
+		<string>integer default 0</string>
+		<key>createUserId</key>
+		<string>integer default 0</string>
+		<key>partner</key>
+		<string>integer default 0</string>
+		<key>spotCertifition</key>
+		<string>integer default 0</string>
+	</dict>
+	<key>StoreList</key>
+	<dict>
+		<key>id</key>
+		<string>integer primary key autoincrement</string>
+		<key>userId</key>
+		<string>integer not null</string>
+		<key>uniqueId</key>
+		<string>integer not null</string>
+		<key>createUserId</key>
+		<string>integer default 0</string>
+		<key>updateTime</key>
+		<string>datetime default (datetime(&apos;now&apos;, &apos;localtime&apos;))</string>
+		<key>createTime</key>
+		<string>datetime default (datetime(&apos;now&apos;, &apos;localtime&apos;))</string>
+		<key>isCarrier</key>
+		<string>integer</string>
+		<key>vipLevel</key>
+		<string>integer</string>
+		<key>sname</key>
+		<string>text</string>
+		<key>mainBusiness</key>
+		<string>text</string>
+		<key>isCreCompany</key>
+		<string>integer</string>
+		<key>isCrePersonal</key>
+		<string>integer</string>
+		<key>isCreMobile</key>
+		<string>integer</string>
+		<key>isCreEmail</key>
+		<string>integer</string>
+		<key>isCreField</key>
+		<string>integer</string>
+		<key>addressDetailFull</key>
+		<string>text</string>
+		<key>companyPicture</key>
+		<string>text</string>
+	</dict>
+</dict>
+</plist>
